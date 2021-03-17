@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backd"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backd">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName14"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#E3D3D3"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="Brithday"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="543dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#E3D3D3"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#E3D3D3"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="Email"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="323dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName16"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#F30707"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="REGISTER"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="689dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName13"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#E3D3D3"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="Password"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="432dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName12"
+            android:layout_width="453dp"
+            android:layout_height="63dp"
+            android:background="#E3D3D3"
+            android:ems="10"
+            android:fontFamily="@font/roboto_bold"
+            android:inputType="textPersonName"
+            android:text="Phone"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="233dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="95dp"
+            android:layout_height="41dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Male"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="101dp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:layout_height="44dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Female"
+            android:textSize="24sp"
+            tools:layout_editor_absoluteX="297dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            app:srcCompat="@drawable/ic_circle"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="34dp"
+            app:srcCompat="@drawable/ic_circle"
+            tools:layout_editor_absoluteX="240dp"
+            tools:layout_editor_absoluteY="625dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#E3D3D3"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="Brithday"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#E3D3D3"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="126dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#E3D3D3"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#F30707"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="689dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#E3D3D3"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="453dp"
+        android:layout_height="63dp"
+        android:background="#E3D3D3"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textPersonName"
+        android:text="Phone"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="181dp"
+        android:layout_height="49dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="REGISTER"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="380dp"
+        android:layout_height="54dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="When you agree to terms ang conditions"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="773dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backa">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="255dp"
+        android:layout_height="199dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207"
+        app:srcCompat="@drawable/ic_lock_152879_1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="271dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_bold"
+        android:text="FORGET \n  PASSWORD"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="82dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_mail_2935365_1"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="391dp"
+        android:layout_height="75dp"
+        android:background="#C8BABA"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textEmailAddress"
+        android:text="EMAIL"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="475dp"
+        android:layout_height="75dp"
+        android:background="#FFEB3B"
+        android:ems="10"
+        android:fontFamily="@font/roboto_bold"
+        android:inputType="textEmailAddress"
+        android:text="NEXT"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="701dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Provide your account's email for which you\n want to reset your password"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="510dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
